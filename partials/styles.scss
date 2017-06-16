@@ -1,0 +1,166 @@
+@import "layout";
+@import "mixins";
+@import "variables";
+
+
+#Nav-Bar{
+  width: 100%;
+  z-index: 5;
+  position: fixed;
+  font-family:  'Merriweather', sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  //background: rgba(0,0,0, 0.9);
+  background: rgba(55, 27, 82, 0.80);
+  color: ghostwhite;
+
+  h3{
+    font-style: italic;
+  }
+  h1{
+    font-size: 24px;
+  }
+
+  .col-sm-1{
+    padding-top: 10px;
+    //float: right;
+    display: inline-block;
+    a{
+      color: ghostwhite;
+    }
+  }
+
+}
+
+#Top{
+  //background-image: url("https://static.pexels.com/photos/97077/pexels-photo-97077.jpeg");
+  //background-image: url("https://static.pexels.com/photos/90807/pexels-photo-90807.jpeg");
+  //background-image: url("https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg");
+  //background-image: url("https://static.pexels.com/photos/47425/pexels-photo-47425.jpeg");
+  //background-image: url("https://static.pexels.com/photos/160107/pexels-photo-160107.jpeg");
+  //background-image: url("https://static.pexels.com/photos/177598/pexels-photo-177598.jpeg");
+  background-image: url("https://static.pexels.com/photos/251225/pexels-photo-251225.jpeg");
+  //background-image: url("https://static.pexels.com/photos/247791/pexels-photo-247791.png");
+  //background-image: url("https://static.pexels.com/photos/7101/wood-coffee-iphone-notebook.jpg");
+  //background-image: url("https://static.pexels.com/photos/348036/pexels-photo-348036.jpeg");
+  //background-image: url("https://static.pexels.com/photos/34600/pexels-photo.jpg");
+  //background-image: url("https://static.pexels.com/photos/249203/pexels-photo-249203.jpeg");
+  //background-image: url("https://static.pexels.com/photos/214221/pexels-photo-214221.jpeg");
+  //background-image: url("https://static.pexels.com/photos/45/coffee-apple-iphone-desk.jpg");
+  //background-image: url("https://static.pexels.com/photos/306198/pexels-photo-306198.jpeg");
+  
+  background-size: 100% 100%;
+
+  font-family:  'Josefin Sans', sans-serif;
+  text-shadow: 2px -2px 4px gray;
+  padding-top: 70px;
+  display: block;
+  height: 50vh;
+  color: ghostwhite;
+  width: 100vw;
+  h1{
+    padding-top: 50px;
+    font-size: 40px;
+  }
+  h3{
+    padding-top: 10px;
+    font-style: italic;
+    font-size: 24px;
+  }
+
+
+}
+
+
+#About{
+  background: ghostwhite;
+  font-family:  'Josefin Sans', sans-serif;
+
+  height: 30vh;
+  color: #101524;
+  width: 100vw;
+  h1{
+    padding-bottom: 5px;
+    padding-top: 20px;
+    font-size: 30px;
+  }
+}
+
+#Skills{
+  background: rgba(105,105,105,0.8);
+  font-family:  'Josefin Sans', sans-serif;
+  color: ghostwhite;
+  width: 100vw;
+  h1{
+    font-family:  'Merriweather', sans-serif;
+    padding-top: 20px;
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  .devicon{
+    font-size: 36px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+  }
+}
+
+#Contact{
+  background: ghostwhite;
+  font-family:  'Josefin Sans', sans-serif;
+  padding-bottom: 10px;
+
+
+  color: #101524;
+  width: 100vw;
+  h1{
+    padding-bottom: 5px;
+    padding-top: 20px;
+    font-size: 30px;
+  }
+  .contact-instructions{
+    padding-bottom: 5px;
+  }
+  .hover-details{
+    font-size: 12px;
+    color: dodgerblue;
+  }
+  .contact-box{
+    text-align: center;
+    border: solid 2px black;
+    padding: 3px;
+    height: 26px;
+    width: 155px;
+  }
+}
+
+
+
+#cell{
+  height: 60px;
+  width:60px;
+}
+#mail{
+  height: 55px;
+  width:80px;
+  clip: rect(0px,0px,20px,0px);
+}
+
+#Links{
+  height: 15vh;
+  background: dimgrey;
+  font-family:  'Josefin Sans', sans-serif;
+  color: ghostwhite;
+  width: 100vw;
+
+
+  a{
+    color: ghostwhite;
+  }
+  p{
+    float: right;
+  }
+}
+
+
+
+
