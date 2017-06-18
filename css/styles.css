@@ -3,91 +3,100 @@
   width: 100%;
   z-index: 5;
   position: fixed;
-  font-family: 'Merriweather', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   padding-top: 15px;
   padding-bottom: 15px;
-  background: rgba(55, 27, 82, 0.9);
+  box-shadow: 3px 3px 3px gray;
+  background: url("https://images.template.net/wp-content/uploads/2016/04/26062944/Dark-Lines-with-Purple-Background-Download.jpg");
   color: ghostwhite;
 }
-/* line 17, ../partials/styles.scss */
+/* line 20, ../partials/styles.scss */
 #Nav-Bar h3 {
   font-style: italic;
 }
-/* line 20, ../partials/styles.scss */
+/* line 23, ../partials/styles.scss */
 #Nav-Bar h1 {
   font-size: 24px;
+  opacity: 1;
 }
-/* line 24, ../partials/styles.scss */
+/* line 28, ../partials/styles.scss */
 #Nav-Bar .col-sm-1 {
   padding-top: 10px;
   display: inline-block;
 }
-/* line 28, ../partials/styles.scss */
+/* line 32, ../partials/styles.scss */
 #Nav-Bar .col-sm-1 a {
   color: ghostwhite;
 }
 
-/* line 35, ../partials/styles.scss */
+/* line 39, ../partials/styles.scss */
 #Top {
-  background-image: url("https://static.pexels.com/photos/45/coffee-apple-iphone-desk.jpg");
+  background-image: url("https://static.pexels.com/photos/7101/wood-coffee-iphone-notebook.jpg");
   background-size: 100% 100%;
   font-family: 'Josefin Sans', sans-serif;
   text-shadow: 2px -2px 4px gray;
   padding-top: 70px;
   display: block;
-  height: 50vh;
+  height: 70vh;
   color: ghostwhite;
   width: 100vw;
+  box-shadow: 2px 3px 2px gray;
 }
-/* line 59, ../partials/styles.scss */
+/* line 57, ../partials/styles.scss */
 #Top h1 {
   padding-top: 50px;
   font-size: 40px;
 }
-/* line 63, ../partials/styles.scss */
+/* line 61, ../partials/styles.scss */
 #Top h3 {
   padding-top: 10px;
   font-style: italic;
   font-size: 24px;
 }
 
-/* line 73, ../partials/styles.scss */
+/* line 71, ../partials/styles.scss */
 #About {
   background: ghostwhite;
   font-family: 'Josefin Sans', sans-serif;
-  height: 30vh;
+  height: 60vh;
   color: #101524;
   width: 100vw;
 }
-/* line 80, ../partials/styles.scss */
+/* line 78, ../partials/styles.scss */
 #About h1 {
   padding-bottom: 5px;
   padding-top: 20px;
   font-size: 30px;
 }
+/* line 83, ../partials/styles.scss */
+#About p {
+  font-size: 20px;
+  line-height: 25px;
+}
 
-/* line 87, ../partials/styles.scss */
+/* line 89, ../partials/styles.scss */
 #Skills {
-  background: rgba(105, 105, 105, 0.8);
+  box-shadow: 2px -3px 2px gray;
+  background: url("http://chesterspirit.com/wp-content/uploads/2016/02/Plain-Grey-Background.jpg");
   font-family: 'Josefin Sans', sans-serif;
   color: ghostwhite;
   width: 100vw;
 }
-/* line 92, ../partials/styles.scss */
+/* line 98, ../partials/styles.scss */
 #Skills h1 {
-  font-family: 'Merriweather', sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding-top: 20px;
   font-size: 30px;
   padding-bottom: 20px;
 }
-/* line 98, ../partials/styles.scss */
+/* line 105, ../partials/styles.scss */
 #Skills .devicon {
   font-size: 36px;
   padding-top: 5px;
   padding-bottom: 15px;
 }
 
-/* line 105, ../partials/styles.scss */
+/* line 112, ../partials/styles.scss */
 #Contact {
   background: ghostwhite;
   font-family: 'Josefin Sans', sans-serif;
@@ -95,57 +104,86 @@
   color: #101524;
   width: 100vw;
 }
-/* line 113, ../partials/styles.scss */
+/* line 119, ../partials/styles.scss */
 #Contact h1 {
   padding-bottom: 5px;
   padding-top: 20px;
   font-size: 30px;
 }
-/* line 118, ../partials/styles.scss */
+/* line 124, ../partials/styles.scss */
 #Contact .contact-instructions {
+  font-size: 18px;
   padding-bottom: 5px;
   padding-right: 15px;
 }
-/* line 122, ../partials/styles.scss */
+/* line 129, ../partials/styles.scss */
 #Contact .hover-details {
   font-size: 12px;
   color: dodgerblue;
 }
-/* line 126, ../partials/styles.scss */
+/* line 133, ../partials/styles.scss */
 #Contact .contact-box {
-  text-align: center;
-  border: solid 2px black;
   padding: 3px;
-  height: 26px;
-  width: 155px;
+  display: None;
 }
 
-/* line 137, ../partials/styles.scss */
+/* line 138, ../partials/styles.scss */
+#company-input {
+  width: 50%;
+  display: inline-block;
+}
+
+/* line 142, ../partials/styles.scss */
+#name-input {
+  width: 49%;
+  display: inline-block;
+}
+
+/* line 146, ../partials/styles.scss */
+#phone-input {
+  display: inline-block;
+  width: 50%;
+}
+
+/* line 150, ../partials/styles.scss */
+#email-input {
+  display: inline-block;
+  width: 49%;
+}
+
+/* line 155, ../partials/styles.scss */
 #cell {
   height: 60px;
   width: 60px;
 }
 
-/* line 141, ../partials/styles.scss */
+/* line 159, ../partials/styles.scss */
 #mail {
   height: 55px;
   width: 80px;
-  clip: rect(0px, 0px, 20px, 0px);
+  padding-left: 5px;
+  margin-top: 10px;
 }
 
-/* line 147, ../partials/styles.scss */
+/* line 166, ../partials/styles.scss */
 #Links {
-  height: 15vh;
-  background: dimgrey;
+  background: url("http://chesterspirit.com/wp-content/uploads/2016/02/Plain-Grey-Background.jpg");
   font-family: 'Josefin Sans', sans-serif;
   color: ghostwhite;
   width: 100vw;
+  padding-bottom: 10px;
+  box-shadow: 0 -3px 3px gray;
 }
-/* line 155, ../partials/styles.scss */
+/* line 175, ../partials/styles.scss */
+#Links h1 {
+  font-size: 20px;
+  padding-top: 10px;
+}
+/* line 179, ../partials/styles.scss */
 #Links a {
   color: ghostwhite;
 }
-/* line 158, ../partials/styles.scss */
+/* line 182, ../partials/styles.scss */
 #Links p {
   float: right;
 }

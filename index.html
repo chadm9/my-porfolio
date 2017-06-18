@@ -16,6 +16,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Bitter:700|Merriweather" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
 
@@ -37,23 +38,23 @@
 				</div>
 				<div class="col-sm-1">
 					<div class="row">
-						<a href="#Top">Top</a>
+						<a id='Top-link' href="#Top">Top</a>
 					</div>
 				</div>
 
 				<div class="col-sm-1">
 					<div class="row">
-						<a href="#About">About</a>
+						<a id='About-link' href="#About">About</a>
 					</div>
 				</div>
 				<div class="col-sm-1">
 					<div class="row">
-						<a href="#Projects">Projects</a>
+						<a id='Projects-link' href="#Projects">Projects</a>
 					</div>
 				</div>
 				<div class="col-sm-1">
 					<div class="row">
-						<a href="#Contact">Contact</a>
+						<a id='Contact-link' href="#Contacts">Contact</a>
 					</div>
 				</div>
 
@@ -65,7 +66,7 @@
 	<div class="container" id="Top">
 		<div class="col-sm-12">
 			<div class="row text-center">
-				<h1>Welcome In.</h1>
+				<h1><br>Welcome In.</h1>
 			</div>
 			<div class="row text-center">
 				<h3>My Name's Chad, and I'm a Web and Software Developer.</h3>
@@ -78,10 +79,10 @@
 	<div class="container" id="About">
 		<div class="col-sm-5">
 			<div class="row">
-				<h1>About Me:</h1>
+				<h1>About</h1>
 			</div>
 			<div class="row text-justify">
-				<p>I received my PhD in Computational Chemistry (i.e., chemistry through code!) in 2013.  After
+				<p><br>I received my PhD in Computational Chemistry (i.e., chemistry through code!) in 2013.  After
 					realizing that my passion for programming had outgrown my passion for chemistry, I decided to
 					transition into full time coding.  My passion lies in developing smart and efficient algorithms
 					for solving real-world challenges in web and sofware applications.</p>
@@ -242,35 +243,46 @@
 		</div>
 		<div class="col-sm-5 text-justify">
 			<div class="row">
-				<p class="contact-instructions">Want to chat?  Either fill out the form and I'll be in touch soon or hover over the
-					icons below for my contact information.</p>
+				<p class="contact-instructions"><br>Want to chat?  Either fill out the form and I'll be in touch soon or click the
+					icons below for my contact information. <br><br></p>
 			</div>
 			<div class="row">
-				<img id='cell' src="img/cellphone-icon.png"><img id='mail' src="img/laptop-icon.png">
+				<img id='cell' src="img/cellphone-icon.png">
+				<img id='mail' src="img/laptop-icon.png">
+			</div>
+
+
+			<div class="row">
+				<p class="hover-details"> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Why do I have to click...?)</p>
 			</div>
 			<div class="row">
-				<p class="hover-details"> (Why do I have to hover...?)</p>
-			</div>
-			<div class="row">
-				<div class="col-sm-4 contact-box">
+				<div class="contact-box">
 				</div>
 			</div>
 
 		</div>
 		<div class="col-sm-7">
 			<form>
-				<div class="form-group">
+				<div class="form-group" id="name-input">
 					<label>Name</label>
 					<input type="text" class="form-control" placeholder="Your Name">
 				</div>
-				<div class="form-group">
+				<div class="form-group" id="company-input">
+					<label>Company/Organization</label>
+					<input type="text" class="form-control" placeholder="Company/Organization">
+				</div>
+				<div class="form-group" id="email-input">
 					<label for="exampleInputEmail1">Email Address</label>
-					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="email@domain.com">
+				</div>
+				<div class="form-group" id='phone-input'>
+					<label>Phone Number</label>
+					<input type="text" class="form-control" placeholder="(xxx)-xxx-xxxx">
 				</div>
 				<div class="form-group">
 					<label for="exampleInputEmail1">Message</label>
 
-					<textarea class="form-control" rows="3"></textarea>
+					<textarea class="form-control" rows="4"></textarea>
 
 
 				</div>
@@ -288,16 +300,16 @@
 		<div class="col-sm-12">
 			<div class="row">
 				<div class="col-sm-2">
-					<a href="">Resume</a>
+					<a href=""><br>Resume</a>
 				</div>
 				<div class="col-sm-2">
-					<a href="https://github.com/chadm9">GitHub</a>
+					<a href="https://github.com/chadm9"><br>GitHub</a>
 				</div>
 				<div class="col-sm-2">
-					<a href="https://www.linkedin.com/in/w-chad-mckee-88939163/">LinkedIn</a>
+					<a href="https://www.linkedin.com/in/w-chad-mckee-88939163/"><br>LinkedIn</a>
 				</div>
 				<div class="col-sm-6">
-					<p>Built by Chad McKee, Copyright &#169; 2017</p>
+					<p><br>Built by Chad McKee, Copyright &#169; 2017</p>
 				</div>
 			</div>
 

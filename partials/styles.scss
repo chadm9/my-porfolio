@@ -7,11 +7,14 @@
   width: 100%;
   z-index: 5;
   position: fixed;
-  font-family:  'Merriweather', sans-serif;
+  font-family:  'PT Sans', sans-serif;
   padding-top: 15px;
   padding-bottom: 15px;
-  //background: rgba(0,0,0, 0.9);
-  background: rgba(55, 27, 82, 0.90);
+  box-shadow: 3px 3px 3px gray;
+  //background: url("http://i808.photobucket.com/albums/zz5/starlight1959/purple-leather-texture.jpg");
+  //opacity: 0.6;
+  //background: rgba(55, 27, 82, 0.60);
+  background: url("https://images.template.net/wp-content/uploads/2016/04/26062944/Dark-Lines-with-Purple-Background-Download.jpg");
   color: ghostwhite;
 
   h3{
@@ -19,6 +22,7 @@
   }
   h1{
     font-size: 24px;
+    opacity: 1;
   }
 
   .col-sm-1{
@@ -33,29 +37,23 @@
 }
 
 #Top{
-  //background-image: url("https://static.pexels.com/photos/97077/pexels-photo-97077.jpeg");
-  //background-image: url("https://static.pexels.com/photos/90807/pexels-photo-90807.jpeg");
   //background-image: url("https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg");
-  //background-image: url("https://static.pexels.com/photos/47425/pexels-photo-47425.jpeg");
   //background-image: url("https://static.pexels.com/photos/160107/pexels-photo-160107.jpeg");
   //background-image: url("https://static.pexels.com/photos/251225/pexels-photo-251225.jpeg");
-  //background-image: url("https://static.pexels.com/photos/247791/pexels-photo-247791.png");
-  //background-image: url("https://static.pexels.com/photos/7101/wood-coffee-iphone-notebook.jpg");
-  //background-image: url("https://static.pexels.com/photos/348036/pexels-photo-348036.jpeg");
+  background-image: url("https://static.pexels.com/photos/7101/wood-coffee-iphone-notebook.jpg");
   //background-image: url("https://static.pexels.com/photos/34600/pexels-photo.jpg");
-  //background-image: url("https://static.pexels.com/photos/249203/pexels-photo-249203.jpeg");
   //background-image: url("https://static.pexels.com/photos/214221/pexels-photo-214221.jpeg");
-  background-image: url("https://static.pexels.com/photos/45/coffee-apple-iphone-desk.jpg");
-  //background-image: url("https://static.pexels.com/photos/306198/pexels-photo-306198.jpeg");
-  
+  //background-image: url("https://static.pexels.com/photos/45/coffee-apple-iphone-desk.jpg");
+
   background-size: 100% 100%;
   font-family:  'Josefin Sans', sans-serif;
   text-shadow: 2px -2px 4px gray;
   padding-top: 70px;
   display: block;
-  height: 50vh;
+  height: 70vh;
   color: ghostwhite;
   width: 100vw;
+  box-shadow: 2px 3px 2px gray;
   h1{
     padding-top: 50px;
     font-size: 40px;
@@ -74,7 +72,7 @@
   background: ghostwhite;
   font-family:  'Josefin Sans', sans-serif;
 
-  height: 30vh;
+  height: 60vh;
   color: #101524;
   width: 100vw;
   h1{
@@ -82,18 +80,27 @@
     padding-top: 20px;
     font-size: 30px;
   }
+  p{
+    font-size: 20px;
+    line-height: 25px;
+  }
 }
 
 #Skills{
-  background: rgba(105,105,105,0.8);
+  //background: rgba(105,105,105,0.8);
+
+  box-shadow: 2px -3px 2px gray;
+  background: url("http://chesterspirit.com/wp-content/uploads/2016/02/Plain-Grey-Background.jpg");
+  //background: url("https://images.designtrends.com/wp-content/uploads/2015/11/13153629/Cool-Grey-Background.jpg");
   font-family:  'Josefin Sans', sans-serif;
   color: ghostwhite;
   width: 100vw;
   h1{
-    font-family:  'Merriweather', sans-serif;
+    font-family:  'Roboto', sans-serif;
     padding-top: 20px;
     font-size: 30px;
     padding-bottom: 20px;
+    //text-shadow: 1px 1px 1px grey;
   }
   .devicon{
     font-size: 36px;
@@ -107,7 +114,6 @@
   font-family:  'Josefin Sans', sans-serif;
   padding-bottom: 10px;
 
-
   color: #101524;
   width: 100vw;
   h1{
@@ -116,6 +122,7 @@
     font-size: 30px;
   }
   .contact-instructions{
+    font-size: 18px;
     padding-bottom: 5px;
     padding-right: 15px;
   }
@@ -124,15 +131,26 @@
     color: dodgerblue;
   }
   .contact-box{
-    text-align: center;
-    border: solid 2px black;
     padding: 3px;
-    height: 26px;
-    width: 155px;
+    display: None;
   }
 }
-
-
+#company-input{
+  width: 50%;
+  display: inline-block;
+}
+#name-input{
+  width: 49%;
+  display: inline-block;
+}
+#phone-input{
+  display: inline-block;
+  width: 50%;
+}
+#email-input{
+  display: inline-block;
+  width: 49%;
+}
 
 #cell{
   height: 60px;
@@ -141,17 +159,23 @@
 #mail{
   height: 55px;
   width:80px;
-  clip: rect(0px,0px,20px,0px);
+  padding-left: 5px;
+  margin-top: 10px;
 }
 
 #Links{
-  height: 15vh;
-  background: dimgrey;
+  //background: dimgrey;
+  background: url("http://chesterspirit.com/wp-content/uploads/2016/02/Plain-Grey-Background.jpg");
   font-family:  'Josefin Sans', sans-serif;
   color: ghostwhite;
   width: 100vw;
+  padding-bottom: 10px;
+  box-shadow: 0 -3px 3px gray;
 
-
+  h1{
+    font-size: 20px;
+    padding-top: 10px;
+  }
   a{
     color: ghostwhite;
   }

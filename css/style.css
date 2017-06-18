@@ -86,10 +86,10 @@ Main Components
   top: 25vh;
 }
 .projects-container .cd-single-project:nth-of-type(2)::after {
-  background-image: url("../img/Molecule_background.jpg");
+  background-image: url("../img/molecule-2.png");
 }
 .projects-container .cd-single-project:nth-of-type(2)::before {
-  content: 'img/Molecule_background.jpg';
+  content: 'img/molecule-2.png';
 }
 .projects-container .cd-single-project:nth-of-type(3) {
   top: 50vh;
@@ -159,10 +159,10 @@ Main Components
     left: 25vw;
   }
   .projects-container .cd-single-project:nth-of-type(2)::before {
-    content: 'img/Molecule_background.jpg';
+    content: 'img/molecule-2.png';
   }
   .projects-container .cd-single-project:nth-of-type(2)::after {
-    background-image: url("../img/Molecule_background.jpg");
+    background-image: url("../img/molecule-2.png");
   }
   .projects-container .cd-single-project:nth-of-type(3) {
     top: 0;
