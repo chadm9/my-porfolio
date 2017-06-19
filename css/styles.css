@@ -63,23 +63,40 @@
 #About {
   background: ghostwhite;
   font-family: 'Josefin Sans', sans-serif;
-  height: 60vh;
+  padding-bottom: 35px;
+  padding-top: 10px;
   color: #101524;
   width: 100vw;
 }
-/* line 98, ../partials/styles.scss */
+/* line 100, ../partials/styles.scss */
 #About h1 {
   padding-bottom: 5px;
-  padding-top: 20px;
+  padding-top: 30px;
   font-size: 30px;
 }
-/* line 103, ../partials/styles.scss */
+/* line 105, ../partials/styles.scss */
 #About p {
   font-size: 20px;
   line-height: 25px;
 }
 
-/* line 109, ../partials/styles.scss */
+/* line 111, ../partials/styles.scss */
+#my-photo {
+  padding-top: 30px;
+  font-family: "PT Sans", Serif, sans-serif;
+  font-style: italic;
+}
+/* line 112, ../partials/styles.scss */
+#my-photo img {
+  height: 200px;
+  width: 150px;
+}
+/* line 119, ../partials/styles.scss */
+#my-photo p {
+  font-size: 16px;
+}
+
+/* line 124, ../partials/styles.scss */
 #Skills {
   box-shadow: 2px -3px 2px gray;
   background: url("http://chesterspirit.com/wp-content/uploads/2016/02/Plain-Grey-Background.jpg");
@@ -87,14 +104,14 @@
   color: ghostwhite;
   width: 100vw;
 }
-/* line 118, ../partials/styles.scss */
+/* line 133, ../partials/styles.scss */
 #Skills h1 {
   font-family: 'Josefin Sans', sans-serif;
   padding-top: 20px;
   font-size: 30px;
   padding-bottom: 20px;
 }
-/* line 125, ../partials/styles.scss */
+/* line 140, ../partials/styles.scss */
 #Skills .devicon {
   font-size: 36px;
   padding-top: 5px;
@@ -102,56 +119,74 @@
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 134, ../partials/styles.scss */
+  /* line 149, ../partials/styles.scss */
   #Nav-Bar h1 {
     text-align: center;
   }
-  /* line 137, ../partials/styles.scss */
+  /* line 152, ../partials/styles.scss */
   #Nav-Bar .col-xs-3 {
     text-align: center;
   }
 
-  /* line 145, ../partials/styles.scss */
+  /* line 159, ../partials/styles.scss */
+  #About h1 {
+    font-size: 24px;
+  }
+  /* line 162, ../partials/styles.scss */
+  #About p {
+    font-size: 18px;
+  }
+
+  /* line 168, ../partials/styles.scss */
+  #my-photo p {
+    font-size: 16px;
+  }
+
+  /* line 175, ../partials/styles.scss */
+  #Contact h1 {
+    font-size: 24px !important;
+  }
+  /* line 179, ../partials/styles.scss */
   #Contact .hover-details {
     padding-bottom: 10px;
   }
-  /* line 148, ../partials/styles.scss */
+  /* line 182, ../partials/styles.scss */
   #Contact .contact-box {
     font-size: 14px;
   }
 
-  /* line 155, ../partials/styles.scss */
+  /* line 189, ../partials/styles.scss */
   #name-input {
     padding-top: 24px;
   }
 
-  /* line 159, ../partials/styles.scss */
+  /* line 193, ../partials/styles.scss */
   #Skills {
     font-size: 12px;
   }
-  /* line 161, ../partials/styles.scss */
+  /* line 195, ../partials/styles.scss */
   #Skills h1 {
     font-size: 24px;
   }
-  /* line 168, ../partials/styles.scss */
+  /* line 202, ../partials/styles.scss */
   #Skills .devicon {
     font-size: 16px;
   }
 
-  /* line 176, ../partials/styles.scss */
+  /* line 210, ../partials/styles.scss */
   #Links .col-xs-12 {
     text-align: center;
   }
-  /* line 179, ../partials/styles.scss */
+  /* line 213, ../partials/styles.scss */
   #Links .col-xs-4 {
     text-align: center;
   }
-  /* line 182, ../partials/styles.scss */
+  /* line 216, ../partials/styles.scss */
   #Links .built-by {
     float: none;
   }
 }
-/* line 192, ../partials/styles.scss */
+/* line 226, ../partials/styles.scss */
 #Contact {
   background: ghostwhite;
   font-family: 'Josefin Sans', sans-serif;
@@ -159,60 +194,60 @@
   color: #101524;
   width: 100vw;
 }
-/* line 199, ../partials/styles.scss */
+/* line 233, ../partials/styles.scss */
 #Contact h1 {
   padding-bottom: 5px;
   padding-top: 20px;
   font-size: 30px;
 }
-/* line 204, ../partials/styles.scss */
+/* line 238, ../partials/styles.scss */
 #Contact .contact-instructions {
   font-size: 18px;
   padding-bottom: 5px;
   padding-right: 15px;
 }
-/* line 209, ../partials/styles.scss */
+/* line 243, ../partials/styles.scss */
 #Contact .hover-details {
   font-size: 12px;
   color: dodgerblue;
 }
-/* line 213, ../partials/styles.scss */
+/* line 247, ../partials/styles.scss */
 #Contact .contact-box {
   padding: 3px;
   display: None;
 }
 
-/* line 218, ../partials/styles.scss */
+/* line 252, ../partials/styles.scss */
 #company-input {
   width: 50%;
   display: inline-block;
 }
 
-/* line 222, ../partials/styles.scss */
+/* line 256, ../partials/styles.scss */
 #name-input {
   width: 49%;
   display: inline-block;
 }
 
-/* line 226, ../partials/styles.scss */
+/* line 260, ../partials/styles.scss */
 #phone-input {
   display: inline-block;
   width: 50%;
 }
 
-/* line 230, ../partials/styles.scss */
+/* line 264, ../partials/styles.scss */
 #email-input {
   display: inline-block;
   width: 49%;
 }
 
-/* line 235, ../partials/styles.scss */
+/* line 269, ../partials/styles.scss */
 #cell {
   height: 60px;
   width: 60px;
 }
 
-/* line 239, ../partials/styles.scss */
+/* line 273, ../partials/styles.scss */
 #mail {
   height: 55px;
   width: 80px;
@@ -220,7 +255,7 @@
   margin-top: 10px;
 }
 
-/* line 246, ../partials/styles.scss */
+/* line 280, ../partials/styles.scss */
 #Links {
   background: url("http://chesterspirit.com/wp-content/uploads/2016/02/Plain-Grey-Background.jpg");
   font-family: 'Josefin Sans', sans-serif;
@@ -229,21 +264,21 @@
   padding-bottom: 10px;
   box-shadow: 0 -3px 3px gray;
 }
-/* line 262, ../partials/styles.scss */
+/* line 296, ../partials/styles.scss */
 #Links h1 {
   font-size: 20px;
   padding-top: 10px;
 }
-/* line 266, ../partials/styles.scss */
+/* line 300, ../partials/styles.scss */
 #Links a {
   color: ghostwhite;
 }
-/* line 269, ../partials/styles.scss */
+/* line 303, ../partials/styles.scss */
 #Links a:hover {
   text-decoration: none;
   text-shadow: 2px 2px 2px white;
 }
-/* line 273, ../partials/styles.scss */
+/* line 307, ../partials/styles.scss */
 #Links p {
   float: right;
 }

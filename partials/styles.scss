@@ -91,18 +91,33 @@
 #About{
   background: ghostwhite;
   font-family:  'Josefin Sans', sans-serif;
+  padding-bottom: 35px;
+  padding-top: 10px;
 
-  height: 60vh;
+  //height: 60vh;
   color: #101524;
   width: 100vw;
   h1{
     padding-bottom: 5px;
-    padding-top: 20px;
+    padding-top: 30px;
     font-size: 30px;
   }
   p{
     font-size: 20px;
     line-height: 25px;
+  }
+}
+
+#my-photo{
+  img{
+    height: 200px;
+    width: 150px;
+  }
+  padding-top: 30px;
+  font-family: "PT Sans", Serif, sans-serif;
+  font-style: italic;
+  p{
+    font-size: 16px;
   }
 }
 
@@ -140,8 +155,27 @@
 
   }
 
+  #About{
+    h1{
+      font-size: 24px;
+    }
+    p{
+      font-size: 18px;
+    }
+  }
+
+  #my-photo{
+    p{
+      font-size: 16px;
+    }
+  }
+
 
   #Contact{
+    h1{
+      font-size: 24px !important;
+    }
+
     .hover-details{
       padding-bottom: 10px;
     }
