@@ -218,10 +218,46 @@
     }
   }
 
+  .Recent-Projects{
+    background: ghostwhite !important;
+    p{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color: #101524 !important;
+      top: 0 !important;
+      position: relative !important;
+      font-size: 16px !important;
+    }
+  }
 
 }
 
-
+.Recent-Projects{
+  //background: url("http://chesterspirit.com/wp-content/uploads/2016/02/Plain-Grey-Background.jpg");
+  //background: #F4DEB2;
+  overflow: visible;
+  height: 24px;
+  background: rgba(244, 222, 178, 0.23);
+  font-style: italic;
+  width: 100vw;
+  //padding-top: 10px;
+  //padding-bottom: 10px;
+  font-family: 'Josefin Sans', serif;
+  color: #101524;
+  //color: ghostwhite;
+  h1{
+    padding: 0;
+    font-size: 30px;
+    color: #101524;
+  }
+  p{
+    position: relative;
+    top: 65px;
+    font-size: 24px;
+    color: ghostwhite;
+    z-index: 20;
+  }
+}
 
 #Contact{
   background: ghostwhite;

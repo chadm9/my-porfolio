@@ -22,7 +22,8 @@ $(document).ready(function () {
         $('#Contact').fadeOut();
         $('#Top').fadeOut();
         $('#Skills').fadeOut();
-        $('#Links').fadeOut()
+        $('#Links').fadeOut();
+        $('#Recent-Projects').fadeOut();
     });
     $('.cd-close').click(function () {
         setTimeout(function () {
@@ -32,8 +33,9 @@ $(document).ready(function () {
             $('#Top').fadeIn();
             $('#Skills').fadeIn();
             $('#Links').fadeIn();
+            $('#Recent-Projects').fadeIn();
             $('html, body').animate({
-                scrollTop: $("#Projects").offset().top
+                scrollTop: $("#Recent-Projects").offset().top
             }, 0);
         },2500);
     });
@@ -54,7 +56,7 @@ $(document).ready(function () {
     $('#Projects-link').click(function () {
         event.preventDefault();
         $('html, body').animate({
-            scrollTop: $("#Projects").offset().top
+            scrollTop: $("#Recent-Projects").offset().top
         }, 700);
     });
     $('#Contact-link').click(function () {
