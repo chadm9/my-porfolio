@@ -13,8 +13,8 @@
   box-shadow: 3px 3px 3px gray;
   //background: url("http://i808.photobucket.com/albums/zz5/starlight1959/purple-leather-texture.jpg");
   //opacity: 0.6;
-  //background: rgba(55, 27, 82, 0.60);
-  background: url("https://images.template.net/wp-content/uploads/2016/04/26062944/Dark-Lines-with-Purple-Background-Download.jpg");
+  background: rgba(55, 27, 82, 0.85);
+  //background: url("https://images.template.net/wp-content/uploads/2016/04/26062944/Dark-Lines-with-Purple-Background-Download.jpg");
   color: ghostwhite;
 
   h3{
@@ -31,10 +31,33 @@
     display: inline-block;
     a{
       color: ghostwhite;
+      text-decoration: none;
+    }
+    a:hover{
+      text-decoration: none;
+      text-shadow: 2px 2px 2px white;
     }
   }
 
 }
+
+//#color1{
+//  background-color: rgba(244, 241, 208, 0.85);
+//
+//}
+//#color2{
+//  background-color: rgba(209,204,152, 0.85);
+//
+//}
+//#color3{
+//  background-color: rgba(84,84,84,0.85);
+//}
+//#color4{
+//  background-color: rgba(0,0,0,0.85);
+//}
+//.colormain{
+//  background-color: rgba(55, 27, 82, 0.85);
+//}
 
 #Top{
   //background-image: url("https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg");
@@ -49,7 +72,6 @@
   font-family:  'Josefin Sans', sans-serif;
   text-shadow: 2px -2px 4px gray;
   padding-top: 70px;
-  display: block;
   height: 70vh;
   color: ghostwhite;
   width: 100vw;
@@ -63,8 +85,6 @@
     font-style: italic;
     font-size: 24px;
   }
-
-
 }
 
 
@@ -96,7 +116,7 @@
   color: ghostwhite;
   width: 100vw;
   h1{
-    font-family:  'Roboto', sans-serif;
+    font-family:  'Josefin Sans', sans-serif;
     padding-top: 20px;
     font-size: 30px;
     padding-bottom: 20px;
@@ -108,6 +128,66 @@
     padding-bottom: 15px;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  #Nav-Bar{
+    h1{
+      text-align: center;
+    }
+    .col-xs-3{
+      text-align: center;
+    }
+
+  }
+
+
+  #Contact{
+    .hover-details{
+      padding-bottom: 10px;
+    }
+    .contact-box{
+      font-size: 14px;
+
+    }
+
+  }
+
+  #name-input{
+    padding-top: 24px;
+  }
+
+  #Skills{
+    font-size: 12px;
+    h1{
+      //font-family:  'Josefin Sans', sans-serif;
+      //padding-top: 20px;
+      font-size: 24px;
+      //padding-bottom: 20px;
+      //text-shadow: 1px 1px 1px grey;
+    }
+    .devicon{
+      font-size: 16px;
+      //padding-top: 5px;
+      //padding-bottom: 15px;
+    }
+  }
+
+  #Links{
+    .col-xs-12{
+      text-align: center;
+    }
+    .col-xs-4{
+      text-align: center;
+    }
+    .built-by{
+      float: none;
+    }
+  }
+
+
+}
+
+
 
 #Contact{
   background: ghostwhite;
@@ -166,6 +246,13 @@
 #Links{
   //background: dimgrey;
   background: url("http://chesterspirit.com/wp-content/uploads/2016/02/Plain-Grey-Background.jpg");
+  //background-image: url("https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg");
+  //background-image: url("https://static.pexels.com/photos/160107/pexels-photo-160107.jpeg");
+  //background-image: url("https://static.pexels.com/photos/251225/pexels-photo-251225.jpeg");
+  //background-image: url("https://static.pexels.com/photos/34600/pexels-photo.jpg");
+  //background-image: url("https://static.pexels.com/photos/214221/pexels-photo-214221.jpeg");
+  //background-image: url("https://static.pexels.com/photos/45/coffee-apple-iphone-desk.jpg");
+
   font-family:  'Josefin Sans', sans-serif;
   color: ghostwhite;
   width: 100vw;
@@ -179,10 +266,15 @@
   a{
     color: ghostwhite;
   }
+  a:hover{
+    text-decoration: none;
+    text-shadow: 2px 2px 2px white;
+  }
   p{
     float: right;
   }
 }
+
 
 
 

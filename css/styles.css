@@ -7,7 +7,7 @@
   padding-top: 15px;
   padding-bottom: 15px;
   box-shadow: 3px 3px 3px gray;
-  background: url("https://images.template.net/wp-content/uploads/2016/04/26062944/Dark-Lines-with-Purple-Background-Download.jpg");
+  background: rgba(55, 27, 82, 0.85);
   color: ghostwhite;
 }
 /* line 20, ../partials/styles.scss */
@@ -27,34 +27,39 @@
 /* line 32, ../partials/styles.scss */
 #Nav-Bar .col-sm-1 a {
   color: ghostwhite;
+  text-decoration: none;
+}
+/* line 36, ../partials/styles.scss */
+#Nav-Bar .col-sm-1 a:hover {
+  text-decoration: none;
+  text-shadow: 2px 2px 2px white;
 }
 
-/* line 39, ../partials/styles.scss */
+/* line 62, ../partials/styles.scss */
 #Top {
   background-image: url("https://static.pexels.com/photos/7101/wood-coffee-iphone-notebook.jpg");
   background-size: 100% 100%;
   font-family: 'Josefin Sans', sans-serif;
   text-shadow: 2px -2px 4px gray;
   padding-top: 70px;
-  display: block;
   height: 70vh;
   color: ghostwhite;
   width: 100vw;
   box-shadow: 2px 3px 2px gray;
 }
-/* line 57, ../partials/styles.scss */
+/* line 79, ../partials/styles.scss */
 #Top h1 {
   padding-top: 50px;
   font-size: 40px;
 }
-/* line 61, ../partials/styles.scss */
+/* line 83, ../partials/styles.scss */
 #Top h3 {
   padding-top: 10px;
   font-style: italic;
   font-size: 24px;
 }
 
-/* line 71, ../partials/styles.scss */
+/* line 91, ../partials/styles.scss */
 #About {
   background: ghostwhite;
   font-family: 'Josefin Sans', sans-serif;
@@ -62,19 +67,19 @@
   color: #101524;
   width: 100vw;
 }
-/* line 78, ../partials/styles.scss */
+/* line 98, ../partials/styles.scss */
 #About h1 {
   padding-bottom: 5px;
   padding-top: 20px;
   font-size: 30px;
 }
-/* line 83, ../partials/styles.scss */
+/* line 103, ../partials/styles.scss */
 #About p {
   font-size: 20px;
   line-height: 25px;
 }
 
-/* line 89, ../partials/styles.scss */
+/* line 109, ../partials/styles.scss */
 #Skills {
   box-shadow: 2px -3px 2px gray;
   background: url("http://chesterspirit.com/wp-content/uploads/2016/02/Plain-Grey-Background.jpg");
@@ -82,21 +87,71 @@
   color: ghostwhite;
   width: 100vw;
 }
-/* line 98, ../partials/styles.scss */
+/* line 118, ../partials/styles.scss */
 #Skills h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   padding-top: 20px;
   font-size: 30px;
   padding-bottom: 20px;
 }
-/* line 105, ../partials/styles.scss */
+/* line 125, ../partials/styles.scss */
 #Skills .devicon {
   font-size: 36px;
   padding-top: 5px;
   padding-bottom: 15px;
 }
 
-/* line 112, ../partials/styles.scss */
+@media only screen and (max-width: 767px) {
+  /* line 134, ../partials/styles.scss */
+  #Nav-Bar h1 {
+    text-align: center;
+  }
+  /* line 137, ../partials/styles.scss */
+  #Nav-Bar .col-xs-3 {
+    text-align: center;
+  }
+
+  /* line 145, ../partials/styles.scss */
+  #Contact .hover-details {
+    padding-bottom: 10px;
+  }
+  /* line 148, ../partials/styles.scss */
+  #Contact .contact-box {
+    font-size: 14px;
+  }
+
+  /* line 155, ../partials/styles.scss */
+  #name-input {
+    padding-top: 24px;
+  }
+
+  /* line 159, ../partials/styles.scss */
+  #Skills {
+    font-size: 12px;
+  }
+  /* line 161, ../partials/styles.scss */
+  #Skills h1 {
+    font-size: 24px;
+  }
+  /* line 168, ../partials/styles.scss */
+  #Skills .devicon {
+    font-size: 16px;
+  }
+
+  /* line 176, ../partials/styles.scss */
+  #Links .col-xs-12 {
+    text-align: center;
+  }
+  /* line 179, ../partials/styles.scss */
+  #Links .col-xs-4 {
+    text-align: center;
+  }
+  /* line 182, ../partials/styles.scss */
+  #Links .built-by {
+    float: none;
+  }
+}
+/* line 192, ../partials/styles.scss */
 #Contact {
   background: ghostwhite;
   font-family: 'Josefin Sans', sans-serif;
@@ -104,60 +159,60 @@
   color: #101524;
   width: 100vw;
 }
-/* line 119, ../partials/styles.scss */
+/* line 199, ../partials/styles.scss */
 #Contact h1 {
   padding-bottom: 5px;
   padding-top: 20px;
   font-size: 30px;
 }
-/* line 124, ../partials/styles.scss */
+/* line 204, ../partials/styles.scss */
 #Contact .contact-instructions {
   font-size: 18px;
   padding-bottom: 5px;
   padding-right: 15px;
 }
-/* line 129, ../partials/styles.scss */
+/* line 209, ../partials/styles.scss */
 #Contact .hover-details {
   font-size: 12px;
   color: dodgerblue;
 }
-/* line 133, ../partials/styles.scss */
+/* line 213, ../partials/styles.scss */
 #Contact .contact-box {
   padding: 3px;
   display: None;
 }
 
-/* line 138, ../partials/styles.scss */
+/* line 218, ../partials/styles.scss */
 #company-input {
   width: 50%;
   display: inline-block;
 }
 
-/* line 142, ../partials/styles.scss */
+/* line 222, ../partials/styles.scss */
 #name-input {
   width: 49%;
   display: inline-block;
 }
 
-/* line 146, ../partials/styles.scss */
+/* line 226, ../partials/styles.scss */
 #phone-input {
   display: inline-block;
   width: 50%;
 }
 
-/* line 150, ../partials/styles.scss */
+/* line 230, ../partials/styles.scss */
 #email-input {
   display: inline-block;
   width: 49%;
 }
 
-/* line 155, ../partials/styles.scss */
+/* line 235, ../partials/styles.scss */
 #cell {
   height: 60px;
   width: 60px;
 }
 
-/* line 159, ../partials/styles.scss */
+/* line 239, ../partials/styles.scss */
 #mail {
   height: 55px;
   width: 80px;
@@ -165,7 +220,7 @@
   margin-top: 10px;
 }
 
-/* line 166, ../partials/styles.scss */
+/* line 246, ../partials/styles.scss */
 #Links {
   background: url("http://chesterspirit.com/wp-content/uploads/2016/02/Plain-Grey-Background.jpg");
   font-family: 'Josefin Sans', sans-serif;
@@ -174,16 +229,21 @@
   padding-bottom: 10px;
   box-shadow: 0 -3px 3px gray;
 }
-/* line 175, ../partials/styles.scss */
+/* line 262, ../partials/styles.scss */
 #Links h1 {
   font-size: 20px;
   padding-top: 10px;
 }
-/* line 179, ../partials/styles.scss */
+/* line 266, ../partials/styles.scss */
 #Links a {
   color: ghostwhite;
 }
-/* line 182, ../partials/styles.scss */
+/* line 269, ../partials/styles.scss */
+#Links a:hover {
+  text-decoration: none;
+  text-shadow: 2px 2px 2px white;
+}
+/* line 273, ../partials/styles.scss */
 #Links p {
   float: right;
 }

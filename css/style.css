@@ -218,7 +218,7 @@ Main Components
     transition: transform 0.8s, opacity 0.5s;
   }
   .projects-container .cd-single-project.is-loaded::after {
-    opacity: 0;
+    opacity: 1;
   }
   .no-touch .projects-container .cd-single-project:hover::after, .projects-container .cd-single-project.is-full-width.is-loaded::after {
     opacity: 1;
