@@ -232,12 +232,17 @@
 
 }
 
+#Bottom-Recent-Projects{
+  background: linear-gradient(grey, ghostwhite);
+}
+
 .Recent-Projects{
   //background: url("http://chesterspirit.com/wp-content/uploads/2016/02/Plain-Grey-Background.jpg");
   //background: #F4DEB2;
   overflow: visible;
   height: 24px;
-  background: rgba(244, 222, 178, 0.23);
+  //background: rgba(244, 222, 178, 0.23);
+  background: linear-gradient(ghostwhite, grey);
   font-style: italic;
   width: 100vw;
   //padding-top: 10px;
@@ -255,7 +260,7 @@
     top: 65px;
     font-size: 24px;
     color: ghostwhite;
-    z-index: 20;
+    z-index: 2;
   }
 }
 
