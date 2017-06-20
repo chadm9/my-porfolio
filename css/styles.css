@@ -230,7 +230,12 @@
   z-index: 2;
 }
 
-/* line 267, ../partials/styles.scss */
+/* line 268, ../partials/styles.scss */
+#Projects .cd-project-info {
+  text-align: justify;
+}
+
+/* line 273, ../partials/styles.scss */
 #Contact {
   background: ghostwhite;
   font-family: 'Josefin Sans', sans-serif;
@@ -238,60 +243,60 @@
   color: #101524;
   width: 100vw;
 }
-/* line 274, ../partials/styles.scss */
+/* line 280, ../partials/styles.scss */
 #Contact h1 {
   padding-bottom: 5px;
   padding-top: 20px;
   font-size: 30px;
 }
-/* line 279, ../partials/styles.scss */
+/* line 285, ../partials/styles.scss */
 #Contact .contact-instructions {
   font-size: 18px;
   padding-bottom: 5px;
   padding-right: 15px;
 }
-/* line 284, ../partials/styles.scss */
+/* line 290, ../partials/styles.scss */
 #Contact .hover-details {
   font-size: 12px;
   color: dodgerblue;
 }
-/* line 288, ../partials/styles.scss */
+/* line 294, ../partials/styles.scss */
 #Contact .contact-box {
   padding: 3px;
   display: None;
 }
 
-/* line 293, ../partials/styles.scss */
+/* line 299, ../partials/styles.scss */
 #company-input {
   width: 50%;
   display: inline-block;
 }
 
-/* line 297, ../partials/styles.scss */
+/* line 303, ../partials/styles.scss */
 #name-input {
   width: 49%;
   display: inline-block;
 }
 
-/* line 301, ../partials/styles.scss */
+/* line 307, ../partials/styles.scss */
 #phone-input {
   display: inline-block;
   width: 50%;
 }
 
-/* line 305, ../partials/styles.scss */
+/* line 311, ../partials/styles.scss */
 #email-input {
   display: inline-block;
   width: 49%;
 }
 
-/* line 310, ../partials/styles.scss */
+/* line 316, ../partials/styles.scss */
 #cell {
   height: 60px;
   width: 60px;
 }
 
-/* line 314, ../partials/styles.scss */
+/* line 320, ../partials/styles.scss */
 #mail {
   height: 55px;
   width: 80px;
@@ -299,7 +304,7 @@
   margin-top: 10px;
 }
 
-/* line 321, ../partials/styles.scss */
+/* line 327, ../partials/styles.scss */
 #Links {
   background: url("http://chesterspirit.com/wp-content/uploads/2016/02/Plain-Grey-Background.jpg");
   font-family: 'Josefin Sans', sans-serif;
@@ -308,21 +313,21 @@
   padding-bottom: 10px;
   box-shadow: 0 -3px 3px gray;
 }
-/* line 337, ../partials/styles.scss */
+/* line 343, ../partials/styles.scss */
 #Links h1 {
   font-size: 20px;
   padding-top: 10px;
 }
-/* line 341, ../partials/styles.scss */
+/* line 347, ../partials/styles.scss */
 #Links a {
   color: ghostwhite;
 }
-/* line 344, ../partials/styles.scss */
+/* line 350, ../partials/styles.scss */
 #Links a:hover {
   text-decoration: none;
   text-shadow: 2px 2px 2px white;
 }
-/* line 348, ../partials/styles.scss */
+/* line 354, ../partials/styles.scss */
 #Links p {
   float: right;
 }
