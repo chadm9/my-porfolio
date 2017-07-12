@@ -92,7 +92,7 @@
 
 		</div>
 		<div class="col-sm-7 text-center" id="my-photo">
-			<img src="http://www.sc.edu/nrotc/images/staff%20photos/no-image-available.png">
+			<img src="./img/IMG_lake_bridge.jpg">
 			<p>Atlanta, GA</p>
 		</div>
 
@@ -219,7 +219,9 @@
 						as a Materials Science researcher at LSU.  By design, RASS eliminates the afformentioned
 						ineffciencies of Saunders' method while dramatically improving the search performance.  Moreover,
 						RASS takes the fewest number of input parameters possible (only the molecular formula) and
-						completely automates the search for molecular structures.  The RASS method is currently under
+						completely automates the search for molecular structures.  The RASS algorithm is currently under
+						the peer review process as it is being considered for publication.  Full details of the algorithm
+						design and its Python implementation will be provided soon after it is published.
 					</p>
 				</div> <!-- .cd-project-info -->
 			</li>
@@ -248,7 +250,24 @@
 
 				<div class="cd-project-info">
 					<p>
-						OK, it may have been a while, but I'm sure that many of you remember playing a Connect-4
+						If you are anything like me, then you probably remember enjoying at least a few games of Connect-4
+						somewhere along the line.  Recently I took an interest in the application of the <a href="https://en.wikipedia.org/wiki/Minimax">
+						Minimax Algorithm</a> for automating computer AI decisions when playing games with "perfect information"
+						(i.e., games in which every player is aware of all game events).  Examples of such games include
+						Tic-Tac-Toe, Chess, and Go.  Another example is Connect-4, for which I decided to build a game
+						engine as an exercise in implementing Minimax.<br><br>
+						Unlike simpler games (e.g., Tic-Tac-Toe, which I have also implemented <a href="http://wchadmckee.com/TicTacToe">here</a>),
+						the sheer number of ways a Connect-4 game can unfold means that a computer search of all possible
+						future game states is presently not computationally feasible.  As a result, in this implementation
+						the game engine searches for all possible game paths up to seven moves ahead.  If for a particular
+						path the algorithm finds that the game is not over, it implements a heuristic function to determine
+						who is currently winning based on the concept of a <a href="http://web.mit.edu/sp.268/www/2010/connectFourSlides.pdf">"threat"</a>.
+						Otherwise the game state is scored based on who won, and the algorithm works backwards assuming
+						optimal opponent play to decide which move to take.  To speed this decision making process, the
+						well known alpha-beta pruning optimization of Minimax has also been implemented.<br><br>
+						Feeling lucky, or just plain good?  Give my game engine a shot <a href="">here</a> and good luck!
+						This front-end web project is powered by HTML, CSS, javascript, and jQuery.
+
 					</p>
 				</div> <!-- .cd-project-info -->
 			</li>
@@ -329,9 +348,9 @@
 	<div class="container" id="Links">
 		<div class="col-sm-12">
 			<div class="row">
-				<div class="col-sm-2 col-xs-4">
-					<a href=""><br>Resume</a>
-				</div>
+				<!--<div class="col-sm-2 col-xs-4">-->
+					<!--<a href=""><br>Resume</a>-->
+				<!--</div>-->
 				<div class="col-sm-2 col-xs-4">
 					<a href="https://github.com/chadm9"><br>GitHub</a>
 				</div>
