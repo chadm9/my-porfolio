@@ -63,7 +63,7 @@
   //background-image: url("https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg");
   //background-image: url("https://static.pexels.com/photos/160107/pexels-photo-160107.jpeg");
   //background-image: url("https://static.pexels.com/photos/251225/pexels-photo-251225.jpeg");
-  background-image: url("https://static.pexels.com/photos/7101/wood-coffee-iphone-notebook.jpg");
+  background-image: url("./../img/Webp.net-compress-image.jpg");
   //background-image: url("https://static.pexels.com/photos/34600/pexels-photo.jpg");
   //background-image: url("https://static.pexels.com/photos/214221/pexels-photo-214221.jpeg");
   //background-image: url("https://static.pexels.com/photos/45/coffee-apple-iphone-desk.jpg");
@@ -231,6 +231,10 @@
     }
   }
 
+  #contact-pic{
+    display: none;
+  }
+
 }
 
 #Bottom-Recent-Projects{
@@ -357,7 +361,12 @@
   }
 }
 
-
+#contact-pic{
+  width: 42%;
+  border-radius: 10%;
+  position: relative;
+  top: -20px;
+}
 
 
 

@@ -37,7 +37,7 @@
 
 /* line 62, ../partials/styles.scss */
 #Top {
-  background-image: url("https://static.pexels.com/photos/7101/wood-coffee-iphone-notebook.jpg");
+  background-image: url("./../img/Webp.net-compress-image.jpg");
   background-size: 100% 100%;
   font-family: 'Josefin Sans', sans-serif;
   text-shadow: 2px -2px 4px gray;
@@ -199,13 +199,18 @@
     position: relative !important;
     font-size: 16px !important;
   }
+
+  /* line 234, ../partials/styles.scss */
+  #contact-pic {
+    display: none;
+  }
 }
-/* line 236, ../partials/styles.scss */
+/* line 240, ../partials/styles.scss */
 #Bottom-Recent-Projects {
   background: linear-gradient(grey, ghostwhite);
 }
 
-/* line 240, ../partials/styles.scss */
+/* line 244, ../partials/styles.scss */
 .Recent-Projects {
   overflow: visible;
   height: 24px;
@@ -215,13 +220,13 @@
   font-family: 'Josefin Sans', serif;
   color: #101524;
 }
-/* line 254, ../partials/styles.scss */
+/* line 258, ../partials/styles.scss */
 .Recent-Projects h1 {
   padding: 0;
   font-size: 30px;
   color: #101524;
 }
-/* line 259, ../partials/styles.scss */
+/* line 263, ../partials/styles.scss */
 .Recent-Projects p {
   position: relative;
   top: 65px;
@@ -230,12 +235,12 @@
   z-index: 2;
 }
 
-/* line 269, ../partials/styles.scss */
+/* line 273, ../partials/styles.scss */
 #Projects .cd-project-info {
   text-align: justify;
 }
 
-/* line 274, ../partials/styles.scss */
+/* line 278, ../partials/styles.scss */
 #Contact {
   background: ghostwhite;
   font-family: 'Josefin Sans', sans-serif;
@@ -243,60 +248,60 @@
   color: #101524;
   width: 100vw;
 }
-/* line 281, ../partials/styles.scss */
+/* line 285, ../partials/styles.scss */
 #Contact h1 {
   padding-bottom: 5px;
   padding-top: 20px;
   font-size: 30px;
 }
-/* line 286, ../partials/styles.scss */
+/* line 290, ../partials/styles.scss */
 #Contact .contact-instructions {
   font-size: 18px;
   padding-bottom: 5px;
   padding-right: 15px;
 }
-/* line 291, ../partials/styles.scss */
+/* line 295, ../partials/styles.scss */
 #Contact .hover-details {
   font-size: 12px;
   color: dodgerblue;
 }
-/* line 295, ../partials/styles.scss */
+/* line 299, ../partials/styles.scss */
 #Contact .contact-box {
   padding: 3px;
   display: None;
 }
 
-/* line 300, ../partials/styles.scss */
+/* line 304, ../partials/styles.scss */
 #company-input {
   width: 50%;
   display: inline-block;
 }
 
-/* line 304, ../partials/styles.scss */
+/* line 308, ../partials/styles.scss */
 #name-input {
   width: 49%;
   display: inline-block;
 }
 
-/* line 308, ../partials/styles.scss */
+/* line 312, ../partials/styles.scss */
 #phone-input {
   display: inline-block;
   width: 50%;
 }
 
-/* line 312, ../partials/styles.scss */
+/* line 316, ../partials/styles.scss */
 #email-input {
   display: inline-block;
   width: 49%;
 }
 
-/* line 317, ../partials/styles.scss */
+/* line 321, ../partials/styles.scss */
 #cell {
   height: 60px;
   width: 60px;
 }
 
-/* line 321, ../partials/styles.scss */
+/* line 325, ../partials/styles.scss */
 #mail {
   height: 55px;
   width: 80px;
@@ -304,7 +309,7 @@
   margin-top: 10px;
 }
 
-/* line 328, ../partials/styles.scss */
+/* line 332, ../partials/styles.scss */
 #Links {
   background: url("http://chesterspirit.com/wp-content/uploads/2016/02/Plain-Grey-Background.jpg");
   font-family: 'Josefin Sans', sans-serif;
@@ -313,21 +318,29 @@
   padding-bottom: 10px;
   box-shadow: 0 -3px 3px gray;
 }
-/* line 344, ../partials/styles.scss */
+/* line 348, ../partials/styles.scss */
 #Links h1 {
   font-size: 20px;
   padding-top: 10px;
 }
-/* line 348, ../partials/styles.scss */
+/* line 352, ../partials/styles.scss */
 #Links a {
   color: ghostwhite;
 }
-/* line 351, ../partials/styles.scss */
+/* line 355, ../partials/styles.scss */
 #Links a:hover {
   text-decoration: none;
   text-shadow: 2px 2px 2px white;
 }
-/* line 355, ../partials/styles.scss */
+/* line 359, ../partials/styles.scss */
 #Links p {
   float: right;
+}
+
+/* line 364, ../partials/styles.scss */
+#contact-pic {
+  width: 42%;
+  border-radius: 10%;
+  position: relative;
+  top: -20px;
 }
