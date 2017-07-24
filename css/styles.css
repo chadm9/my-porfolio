@@ -344,3 +344,8 @@
   position: relative;
   top: -20px;
 }
+
+/* line 371, ../partials/styles.scss */
+.button-containers {
+  margin-top: 10px;
+}
