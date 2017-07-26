@@ -4,7 +4,7 @@ jQuery(document).ready(function($){
     // My code
     var phoneNumber = '706-992-9562';
     var email = btoa('chadm_@yahoo.com');
-    console.log('hello');
+    //console.log('hello');
 
 
 	$('.cd-single-project').bgLoaded({

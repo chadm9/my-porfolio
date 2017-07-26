@@ -149,7 +149,7 @@ Main Components
     transition: width 0s;
   }
   .projects-container .cd-single-project:first-of-type::before {
-    content: 'img/Webp.net-compress-basketball.jp';
+    content: 'img/Webp.net-compress-basketball.jpg';
   }
   .projects-container .cd-single-project:first-of-type::after {
     background-image: url("../img/Webp.net-compress-basketball.jpg");
